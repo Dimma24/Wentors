@@ -8,6 +8,78 @@
 *::after {
    box-sizing: border-box;
 }
+.bg-img {
+   background-image: url(first_furniture.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   min-height: 100vh;
+}
+.nav-container {
+   display: flex;
+}
 .nav-bar {
-   background-image: url(first furniture.jpg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.nav-bar li {
+   list-style-type: none;
+   padding: 14px 20px;
+   margin-right: 10px;
+}
+a {
+   text-decoration: none;
+   color: #ffffff;
+}
+.company-name a {
+   float: left;
+   color: red;
+}
+.about-us {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   background-color: #eff2f6;
+}
+.about-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   background-color: #eff2f6;
+   border: 1px solid red;
+}
+.images-container {
+   display: flex;
+   justify-content: center;
+   /* margin: 30px; */
+   border: 1px solid green;
+}
+.images-container img {
+   width: 26.3333%;
+   /* height: 100%; */
+   margin-left: 20px;
+   border-radius: 30px;
+}
+.about-des {
+   margin-left: 20px;
+
+   width: 100%;
+   text-align: center;
+   border: 1px solid red;
+}
+.about-des h2,
+p {
+   padding: 8px;
+   border: 1px solid red;
+}
+.gallery-container {
+   display: flex;
+}
+.gallery-container img {
+   width: 33.33333%;
 }
