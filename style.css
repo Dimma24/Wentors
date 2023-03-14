@@ -51,35 +51,87 @@ a {
    align-items: center;
    overflow: hidden;
    background-color: #eff2f6;
-   border: 1px solid red;
+   /* border: 1px solid red; */
 }
 .images-container {
    display: flex;
    justify-content: center;
-   /* margin: 30px; */
-   border: 1px solid green;
+   /* border: 1px solid green; */
 }
 .images-container img {
    width: 26.3333%;
-   /* height: 100%; */
    margin-left: 20px;
    border-radius: 30px;
 }
 .about-des {
    margin-left: 20px;
-
    width: 100%;
    text-align: center;
-   border: 1px solid red;
+   /* border: 1px solid red; */
 }
-.about-des h2,
-p {
-   padding: 8px;
-   border: 1px solid red;
+.gallery {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
 }
 .gallery-container {
    display: flex;
+   flex-wrap: wrap;
+   gap: 8px;
+   justify-content: center;
+   align-items: center;
 }
 .gallery-container img {
-   width: 33.33333%;
+   width: 28.33333%;
 }
+.Testimonial {
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   padding: 10px;
+   margin-top: 20px;
+   gap: 10px;
+}
+.creator-info {
+   background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+      linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+      linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+      radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+      radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+   background-blend-mode: screen, color-dodge, overlay, difference, normal;
+   margin-top: 50px;
+   height: 200%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card {
+   background-color: #ffffff;
+   display: flex;
+   justify-content: center;
+   margin: 100px;
+   padding: 40px;
+   max-height: 300%;
+   border-radius: 50px;
+   /* border: 1px solid red; */
+}
+.card-info {
+   padding: 30px;
+   gap: 10px;
+}
+.card img {
+   width: 150px;
+   border-radius: 50%;
+   height: 150px;
+}
+.card-info p {
+   padding: 10px;
+}
+
+/* @media screen and (max-width: 992px);{
+
+}
+@media screen and (max-width: 600px){
+
+} */ ;
