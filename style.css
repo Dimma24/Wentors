@@ -16,13 +16,15 @@
    position: relative;
    min-height: 100vh;
 }
+.flex-center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .nav-container {
    display: flex;
 }
 .nav-bar {
-   display: flex;
-   justify-content: center;
-   align-items: center;
    margin: auto;
 }
 .nav-bar li {
@@ -39,16 +41,10 @@ a {
    color: red;
 }
 .about-us {
-   display: flex;
-   justify-content: center;
-   align-items: center;
    padding: 30px;
    background-color: #eff2f6;
 }
 .about-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
    overflow: hidden;
    background-color: #eff2f6;
    /* border: 1px solid red; */
@@ -70,23 +66,16 @@ a {
    /* border: 1px solid red; */
 }
 .gallery {
-   display: flex;
-   align-items: center;
-   justify-content: center;
    padding: 20px;
 }
 .gallery-container {
-   display: flex;
    flex-wrap: wrap;
    gap: 8px;
-   justify-content: center;
-   align-items: center;
 }
 .gallery-container img {
    width: 28.33333%;
 }
 .Testimonial {
-   display: flex;
    text-align: center;
    flex-direction: column;
    padding: 10px;
@@ -102,14 +91,9 @@ a {
    background-blend-mode: screen, color-dodge, overlay, difference, normal;
    margin-top: 50px;
    height: 200%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 .card {
    background-color: #ffffff;
-   display: flex;
-   justify-content: center;
    margin: 100px;
    padding: 40px;
    max-height: 300%;
@@ -127,6 +111,29 @@ a {
 }
 .card-info p {
    padding: 10px;
+}
+.contact-us {
+   background-color: #eff2f6;
+   padding: 10px;
+}
+.contact-intro {
+   padding: 30px;
+   text-align: center;
+}
+.form {
+   background-color: #ffffff;
+   gap: 30px;
+}
+form {
+   width: 50.333%;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+   padding: 4.5px 12px 3.68px;
+   width: 100%;
+   border: 1px solid red;
+   margin: 10px 0;
 }
 
 /* @media screen and (max-width: 992px);{

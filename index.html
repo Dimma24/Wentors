@@ -14,7 +14,7 @@
                <div class="company-name">
                   <h1><a href="#">FELT</a></h1>
                </div>
-               <div class="nav-bar">
+               <div class="nav-bar flex-center">
                   <li><a href="#">Home</a></li>
                   <li><a href="#">About</a></li>
                   <li><a href="#">Gallery</a></li>
@@ -22,12 +22,12 @@
                </div>
             </div>
          </div>
-         <div class="about-us">
+         <div class="about-us flex-center">
             <h1>About us</h1>
          </div>
       </div>
 
-      <div class="about-container">
+      <div class="about-container flex-center">
          <div class="about-des">
             <h2>Who are we?</h2>
             <p>
@@ -44,10 +44,10 @@
          </div>
       </div>
 
-      <div class="gallery">
+      <div class="gallery flex-center">
          <h1>Gallery</h1>
       </div>
-      <div class="gallery-container">
+      <div class="gallery-container flex-center">
          <img src="gallery image one.jpg" />
          <img src="gallery image two.jpg" />
          <img src="gallery image three.jpg" />
@@ -56,7 +56,7 @@
          <img src="gallery image six.jpg" />
       </div>
 
-      <div class="Testimonial">
+      <div class="Testimonial flex-center">
          <h4><em>Testimonials</em></h4>
          <h3>What our clients are saying.</h3>
          <p>
@@ -66,8 +66,8 @@
          </p>
       </div>
 
-      <div class="creator-info">
-         <div class="card">
+      <div class="creator-info flex-center">
+         <div class="card flex-center">
             <img src="woman.jpg" />
             <div class="card-info">
                <h1>Dhimma Linda - Web Developer</h1>
@@ -83,7 +83,42 @@
       </div>
 
       <div class="contact-us">
-         <div class="form"></div>
+         <div class="contact-intro">
+            <h3>Contact us</h3>
+         </div>
+         <div class="form flex-center">
+            <form action="#">
+               <div class="form-intro">
+                  <h3>Drop us a Message</h3>
+               </div>
+               <label for="name">Name</label>
+               <input
+                  type="text"
+                  id="name"
+                  placeholder="Name"
+                  name="name"
+               /><br />
+               <label for="email">Email</label>
+               <input
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                  name="email"
+               /><br />
+               <label for="msg">Your message</label>
+               <input
+                  type="text"
+                  id="msg"
+                  placeholder="Write something here"
+                  name="msg"
+                  maxlength="20"
+               /><br />
+               <input type="submit" value="submit" />
+            </form>
+            <div class="form-img">
+               <img src="contact us image.jpg" />
+            </div>
+         </div>
       </div>
    </body>
 </html>
