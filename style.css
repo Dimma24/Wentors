@@ -3,12 +3,14 @@
    padding: 0;
    box-sizing: border-box;
    margin: 0;
+   border: 1px solid red;
 }
 *,
 *::before,
 *::after {
    box-sizing: border-box;
 }
+
 .bg-img {
    background-image: url(first_furniture.jpg);
    background-position: center;
@@ -16,7 +18,9 @@
    background-size: cover;
    position: relative;
    min-height: 100vh;
+   border: 1px solid red;
 }
+
 .flex-center {
    display: flex;
    justify-content: center;
@@ -30,14 +34,19 @@
    font-weight: 400;
    line-height: 26px;
    color: #c8c4bc;
+   border: 1px solid red;
 }
+
 .nav-bar {
    margin: auto;
+   border: 1px solid red;
 }
+
 .nav-bar li {
    list-style-type: none;
    padding: 14px 20px;
    margin-right: 10px;
+   border: 1px solid red;
 }
 a {
    text-decoration: none;
@@ -50,6 +59,7 @@ a {
    font-size: 48px;
    font-weight: 500;
    line-height: 77px;
+   border: 1px solid red;
 }
 .about-us {
    padding: 30px;
@@ -59,6 +69,7 @@ a {
    font-weight: 200;
    line-height: 40px;
    color: #4f4f4f;
+   border: 1px solid red;
 }
 .about-des h2 {
    font-family: Raleway, sans-serif;
@@ -66,6 +77,7 @@ a {
    font-weight: 500;
    line-height: 34px;
    color: #4f4f4f;
+   border: 1px solid red;
 }
 .about-des p {
    font-family: Raleway, sans-serif;
@@ -73,27 +85,33 @@ a {
    font-weight: 300;
    line-height: 20px;
    color: #4f4f4f;
+   border: 1px solid red;
 }
 .about-container {
    overflow: hidden;
    background-color: #eff2f6;
+   border: 1px solid red;
 }
 .images-container {
    display: flex;
    justify-content: center;
+   border: 1px solid red;
 }
 .images-container img {
    width: 26.3333%;
    margin-left: 20px;
    border-radius: 30px;
+   border: 1px solid red;
 }
 .about-des {
    margin-left: 20px;
    width: 100%;
    text-align: center;
+   border: 1px solid red;
 }
 .gallery {
    padding: 20px;
+   border: 1px solid red;
 }
 h1 {
    font-family: Poppins, sans-serif;
@@ -102,13 +120,16 @@ h1 {
    line-height: 48px;
    color: #4f4f4f;
    margin-top: 10px;
+   border: 1px solid red;
 }
 .gallery-container {
    flex-wrap: wrap;
    gap: 8px;
+   border: 1px solid red;
 }
 .gallery-container img {
    width: 28.33333%;
+   border: 1px solid red;
 }
 .Testimonial {
    text-align: center;
@@ -116,6 +137,7 @@ h1 {
    padding: 10px;
    margin-top: 20px;
    gap: 10px;
+   border: 1px solid red;
 }
 .Testimonial h4 {
    font-family: Raleway, sans-serif;
@@ -123,6 +145,7 @@ h1 {
    font-weight: 400;
    line-height: 18px;
    color: #fa6400;
+   border: 1px solid red;
 }
 h3 {
    font-family: Raleway, sans-serif;
@@ -130,6 +153,7 @@ h3 {
    font-weight: 500;
    line-height: 34px;
    color: #4f4f4f;
+   border: 1px solid red;
 }
 .Testimonial p {
    font-family: Raleway, sans-serif;
@@ -137,6 +161,7 @@ h3 {
    font-weight: 200;
    line-height: 20px;
    color: #4f4f4f;
+   border: 1px solid red;
 }
 .creator-info {
    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
@@ -147,6 +172,7 @@ h3 {
    background-blend-mode: screen, color-dodge, overlay, difference, normal;
    margin-top: 50px;
    height: 200%;
+   border: 1px solid red;
 }
 .card {
    background-color: #ffffff;
@@ -154,10 +180,12 @@ h3 {
    padding: 40px;
    max-height: 300%;
    border-radius: 50px;
+   border: 1px solid red;
 }
 .card-info {
    padding: 30px;
    gap: 10px;
+   border: 1px solid red;
 }
 .card-info h1 {
    font-family: Raleway, sans-serif;
@@ -166,6 +194,7 @@ h3 {
    line-height: 29px;
    color: #4f4f4f;
    margin-bottom: 20px;
+   border: 1px solid red;
 }
 .card-info p {
    font-family: Raleway, sans-serif;
@@ -173,17 +202,20 @@ h3 {
    font-weight: 400;
    line-height: 26px;
    color: #4f4f4f;
+   border: 1px solid red;
 }
 .card img {
    width: 150px;
    border-radius: 50%;
    height: 150px;
+   border: 1px solid red;
 }
 
 .contact-us {
    background-color: #eff2f6;
    margin-top: 50px;
    padding: 40px;
+   border: 1px solid red;
 }
 .contact-intro {
    padding: 10px;
@@ -194,10 +226,12 @@ h3 {
    padding: 30px;
    margin: 30px 10px;
    border-radius: 20px;
+   border: 1px solid red;
 }
 form {
    width: 40.333%;
    padding: 20px;
+   border: 1px solid red;
 }
 input[type="text"],
 input[type="email"],
@@ -246,6 +280,7 @@ input[type="submit"] {
 .footer-container {
    background-color: #485362;
    margin-bottom: 50px;
+   gap: 30px;
 }
 .footer h4 {
    font-family: Raleway, sans-serif;
@@ -254,25 +289,30 @@ input[type="submit"] {
    line-height: 29px;
    margin-bottom: 10px;
 }
+
 .footer a,
-p {
+.footer p {
    font-family: Raleway, sans-serif;
    font-size: 16px;
    font-weight: 400;
    line-height: 32px;
    color: #fff;
 }
+
 .categories {
    padding: 20px;
-   margin-left: 50px;
-   /* width: 20%; */
 }
 .newsletter {
-   width: 20%;
    padding: 20px;
 }
+
+@media (min-width: 769px) {
+   .newsletter {
+      width: 20%;
+   }
+}
+
 .Location {
-   margin-left: 50px;
    padding: 20px;
 }
 .line {
@@ -291,6 +331,8 @@ hr {
    font-weight: 400;
    line-height: 26px;
 }
+
+/* large sceens upward */
 @media screen and (max-width: 992px) {
    h1 {
       font-size: 50px;
@@ -300,7 +342,19 @@ hr {
       font-size: 25px;
       /* border: 1px solid red; */
    }
+
+   .nav-bar {
+      display: none;
+   }
 }
+
+ul,
+ol {
+   margin: 0;
+   padding: 0;
+}
+
+/* tablet screens upward */
 @media screen and (max-width: 768px) {
    .bg-img {
       min-height: 50vh;
@@ -318,5 +372,22 @@ hr {
    }
    .company-name {
       padding: 5px;
+   }
+
+   .form {
+      flex-wrap: wrap;
+   }
+
+   .footer {
+      flex-wrap: wrap;
+      justify-content: start;
+   }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+   img {
+      max-width: 100%;
+      width: 100%;
    }
 }
