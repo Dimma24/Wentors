@@ -250,7 +250,7 @@ h3 {
 }
 input[type="text"],
 input[type="email"],
-input[type="submit"] {
+button {
    padding: 12px 10px;
    width: 100%;
    border: 1px solid #4f4f4f;
@@ -261,8 +261,22 @@ input[type="submit"] {
    line-height: 26px;
    color: #4f4f4f;
 }
-input[type="submit"] {
+input[type="submit"],
+button {
    border: none;
+   background-color: #fa6400;
+   color: #fff;
+}
+input[type="submit"] {
+   padding: 12px 10px;
+   width: 100%;
+   border: 1px solid #4f4f4f;
+   border-radius: 5px;
+   margin: 10px 0;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #fff;
 }
 label {
    font-size: 16px;
@@ -281,10 +295,6 @@ textarea {
 .form-img img {
    border-radius: 20px;
    box-shadow: 0px 4px 50px 5px rgb(0 0 0 / 50%);
-}
-input[type="submit"] {
-   background-color: #fa6400;
-   color: #fff;
 }
 .footer {
    color: #fff;
@@ -376,6 +386,10 @@ hr {
    .nav-container {
       max-width: 5vw;
       padding: 10px;
+   }
+   .nav-bar {
+      border: 1px solid red;
+      /* max-width: 2vw; */
    }
    .nav-bar li {
       padding: 2px 5px;
