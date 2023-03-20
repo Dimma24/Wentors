@@ -387,10 +387,6 @@ hr {
       max-width: 5vw;
       padding: 10px;
    }
-   .nav-bar {
-      border: 1px solid red;
-      /* max-width: 2vw; */
-   }
    .nav-bar li {
       padding: 2px 5px;
       gap: 20px;
