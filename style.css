@@ -55,7 +55,7 @@ h6 {
 *::after {
    box-sizing: border-box;
 }
-
+/* nav img */
 .bg-img {
    background-image: url(first_furniture.jpg);
    background-position: center;
@@ -101,6 +101,7 @@ a {
    font-weight: 500;
    line-height: 77px;
 }
+/* about us section */
 .about-us {
    padding: 30px;
    background-color: #eff2f6;
@@ -128,6 +129,7 @@ a {
    gap: 20px;
    background-color: #eff2f6;
 }
+/* gallery section */
 .images-container {
    display: grid;
    gap: 20px;
@@ -191,6 +193,7 @@ h3 {
    line-height: 20px;
    color: #4f4f4f;
 }
+/* card section */
 .creator-info {
    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
       linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
@@ -231,7 +234,7 @@ h3 {
    border-radius: 50%;
    height: 150px;
 }
-
+/* contact us section */
 .contact-us {
    background-color: #eff2f6;
    margin-top: 50px;
@@ -296,6 +299,7 @@ textarea {
    border-radius: 20px;
    box-shadow: 0px 4px 50px 5px rgb(0 0 0 / 50%);
 }
+/* footer section */
 .footer {
    color: #fff;
    gap: 40px 100px;
@@ -342,12 +346,7 @@ hr {
    font-weight: 400;
    line-height: 26px;
 }
-/* might be a mistake */
-/* @media (min-width: 769px) {
-   .newsletter {
-      width: 20%;
-   }
-} */
+
 /* large screens upward */
 @media (min-width: 993px) {
    .card {
