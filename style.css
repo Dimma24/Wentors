@@ -65,11 +65,11 @@ h6 {
    min-height: 100vh;
 }
 
-.flex-center {
+/* .flex-center {
    display: flex;
    justify-content: center;
    align-items: center;
-}
+} */
 
 .nav-container {
    display: flex;
@@ -80,7 +80,7 @@ h6 {
    color: #c8c4bc;
 }
 
-.nav-bar {
+.navbar-nav {
    margin: auto;
 }
 
